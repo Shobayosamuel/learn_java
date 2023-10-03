@@ -62,7 +62,19 @@ class Student6 {
     }
 }
 
+class Student7 {
+    int id;
+    String name;
 
+    Student7(int i, String n){
+        id = i;
+        name = n;
+    }
+    Student7(){}
+    void display(){
+        System.out.println(id + " " + name);
+    }
+}
 
 
 public class Constructor {
@@ -77,9 +89,15 @@ public class Constructor {
         // Student5 s4 = new Student5(222,"Aryan",25);  
         // s3.display();  
         // s4.display(); 
-        Student6 s1 = new Student6(111,"Karan");  
-        Student6 s2 = new Student6(s1);  
-        s1.display();  
+        // Student6 s1 = new Student6(111,"Karan");  
+        // Student6 s2 = new Student6(s1);  
+        // s1.display();  
+        // s2.display();
+        Student7 s1 = new Student7(22, "Sammy");
+        Student7 s2 = new Student7();
+        s2.id = s1.id;
+        s2.name = s1.name;
+        s1.display();
         s2.display();
     }
 }
