@@ -16,7 +16,7 @@ class Student{
      //static method to change the value of static variable  
      static void change(){  
      college = "BBDIT";  
-     }  
+     }
      //constructor to initialize the variable  
      Student(int r, String n){  
      rollno = r;  

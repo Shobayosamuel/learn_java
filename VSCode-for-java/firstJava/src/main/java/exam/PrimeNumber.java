@@ -7,7 +7,7 @@ public class PrimeNumber {
       System.out.println("It is not a prime number");
     }
     int newVal = (int) Math.sqrt(num);
-    for (int i = 2; i<=newVal; i++){
+    for (int i = 2; i<=newVal;){
       if (newVal % i == 0) {
         System.out.println("It is not a prime number");
         break;

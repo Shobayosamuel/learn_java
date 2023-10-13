@@ -1,6 +1,5 @@
 package main.java.objects;
 
-import javax.sound.midi.SysexMessage;
 
 class Employee {
     float salary = 4000;
