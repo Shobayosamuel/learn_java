@@ -7,6 +7,7 @@ class Bike9{
 }
 
 //variables with the keyword FINAL cannot be overidden
+//If you make a class final, you cannot extend it
 
 public class Final {
     public static void main(String[] args) {
